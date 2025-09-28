@@ -1,0 +1,92 @@
+/* 
+  font-family: "Signika", sans-serif;
+  font-family: "Epunda Sans", sans-serif; 
+
+  blue: 013146
+  lt blue: BCF7FF
+  dk blue: 7DE7F7
+  red: C52804
+  yellow: FCB11D
+  
+  */
+
+
+  body {
+    font-family: "Epunda Sans", sans-serif;
+    margin: 0;
+    line-height: 1.5;
+    color: #013146;
+  }
+
+  header,
+  footer {
+    background-color: #013146;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+  }
+
+  main {
+    margin: 2em;
+  }
+
+  section {
+    margin: 2em 0;
+    }
+
+  a {
+    color: #c52804;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #fcb11d;
+    font-weight: bold;
+  }
+
+  h1,
+  h2 {
+    font-weight: 700;
+    font-family: "Signika", sans-serif;
+    margin: .5em;
+    }
+
+  h2 {
+    text-transform: uppercase;
+    }
+
+  .lead {
+    font-size: 1.25em;
+    font-weight: 300;
+    font-style: italic;
+    }
+
+  .register a {
+
+    background-color: #c52804;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+  .schedule p {
+    margin:0;
+    padding: .5em;
+    }
+
+  .odd {
+      background-color: #bcf7ff;
+  }
+
+  .even {
+      background-color: #7de7f7;
+
+  .races {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+        margin: 1.5em auto;
+  }
